@@ -35,7 +35,7 @@
 
 -(BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation{
     
-    //
+    //handle openURL
     [[AZConnect instance] openURL:url];
     
     return YES;

@@ -21,10 +21,15 @@
 {
     [super viewDidLoad];
     
-
+    //setup AZConnect
+    //!! Don't forget to add [[AZConnect instance] openURL:url]; to your AppDelegate
+    
+    [AZConnect instance].partnerKey = @"your_partner_key";//contact azumio to get your partner key
     [[AZConnect instance] setHeartRateCallback:^(double heartRate) {
+        //receive the value
         heartrateLabel.text = [NSString stringWithFormat:@"%d bpm", (int)heartRate];
     } andSchema:@"com.azumio.iphone.AzumioConnectExample"];
+    
 	
 }
 
@@ -46,7 +51,7 @@
     [super dealloc];
 }
 
-- (IBAction)onMeasureHeartRAte:(id)sender {
+- (IBAction)onMeasureHeartRate:(id)sender {
     
     [[AZConnect instance] measureHeartRate];
     
