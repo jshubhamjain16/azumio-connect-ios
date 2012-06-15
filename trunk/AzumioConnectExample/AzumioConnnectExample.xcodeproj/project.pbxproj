@@ -15,6 +15,7 @@
 		CC1B0B14156AEFA5003F83C5 /* HRTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC1B0B13156AEFA5003F83C5 /* HRTAppDelegate.m */; };
 		CC1B0B17156AEFA5003F83C5 /* HRTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC1B0B16156AEFA5003F83C5 /* HRTViewController.m */; };
 		CC1B0B1A156AEFA5003F83C5 /* HRTViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC1B0B18156AEFA5003F83C5 /* HRTViewController.xib */; };
+		CC9718D2158BE0650072A641 /* IHR_button_light.png in Resources */ = {isa = PBXBuildFile; fileRef = CC9718D1158BE0650072A641 /* IHR_button_light.png */; };
 		CCB5677415772E8200F89D82 /* AZConnect.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB5677315772E8200F89D82 /* AZConnect.m */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +33,7 @@
 		CC1B0B15156AEFA5003F83C5 /* HRTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HRTViewController.h; sourceTree = "<group>"; };
 		CC1B0B16156AEFA5003F83C5 /* HRTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HRTViewController.m; sourceTree = "<group>"; };
 		CC1B0B19156AEFA5003F83C5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/HRTViewController.xib; sourceTree = "<group>"; };
+		CC9718D1158BE0650072A641 /* IHR_button_light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IHR_button_light.png; sourceTree = "<group>"; };
 		CCB5677215772E8200F89D82 /* AZConnect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AZConnect.h; path = AzumioConnect/AZConnect.h; sourceTree = SOURCE_ROOT; };
 		CCB5677315772E8200F89D82 /* AZConnect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AZConnect.m; path = AzumioConnect/AZConnect.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
@@ -80,6 +82,7 @@
 		CC1B0B09156AEFA5003F83C5 /* AzumioConnnectExample */ = {
 			isa = PBXGroup;
 			children = (
+				CC9718D1158BE0650072A641 /* IHR_button_light.png */,
 				CC1B0B20156AF024003F83C5 /* AzumioConnect */,
 				CC1B0B12156AEFA5003F83C5 /* HRTAppDelegate.h */,
 				CC1B0B13156AEFA5003F83C5 /* HRTAppDelegate.m */,
@@ -164,6 +167,7 @@
 			files = (
 				CC1B0B0E156AEFA5003F83C5 /* InfoPlist.strings in Resources */,
 				CC1B0B1A156AEFA5003F83C5 /* HRTViewController.xib in Resources */,
+				CC9718D2158BE0650072A641 /* IHR_button_light.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

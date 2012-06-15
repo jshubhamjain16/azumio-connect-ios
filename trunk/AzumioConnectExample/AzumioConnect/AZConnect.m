@@ -10,14 +10,19 @@
 
 @implementation AZConnect
 
+@synthesize partnerKey;
+
 static AZConnect *_instance = 0;
 +(AZConnect*)instance{
     if(_instance)
         return _instance;
     
     _instance = [[AZConnect alloc] init];
+    
     return _instance;
 }
+
+
 
 -(void)measureHeartRate{
 
@@ -30,14 +35,15 @@ static AZConnect *_instance = 0;
     } else if( [[UIApplication sharedApplication] canOpenURL:urlFree] ){
         [[UIApplication sharedApplication] openURL:urlFree];
     }else{
-        UIAlertView *av = [[UIAlertView alloc] initWithTitle:@"Measuring heart rate" message:@"The latest version of Instant Heart Rate from Azumio needs to be installed to measure heart rate." delegate:self cancelButtonTitle:@"Later" otherButtonTitles:@"Install NOW", nil];
+        UIAlertView *av = [[UIAlertView alloc] initWithTitle:@"Measuring heart rate" message:@"The latest version of Instant Heart Rate from Azumio needs to be installed to measure your heart rate." delegate:self cancelButtonTitle:@"Later" otherButtonTitles:@"Install NOW", nil];
         [av show];
         [av release];
     }
 }
 
 -(void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex{
-    NSString *installURL = @"http://itunes.apple.com/us/app/instant-heart-rate-heart-rate/id395042892?mt=8";
+    NSString *installURL = [NSString stringWithFormat: @"http://azumio-com.appspot.com/partner/install/si.modula.instantheartrate?key=%@",self.partnerKey];
+    
     if(buttonIndex != 0 ){
         [[UIApplication sharedApplication] openURL:[NSURL URLWithString:installURL]];
     }

@@ -13,6 +13,7 @@ typedef void (^AZConnectHeartRateBlock)(double heartRate);
     AZConnectHeartRateBlock lastSuccessHandler;
     NSString *schema;
 }
+@property (nonatomic,retain)NSString* partnerKey;
 
 +(AZConnect*)instance;
 -(void)openURL:(NSURL*)url;
