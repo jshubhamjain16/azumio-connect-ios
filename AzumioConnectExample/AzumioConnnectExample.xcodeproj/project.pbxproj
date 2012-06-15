@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC1B0B04156AEFA5003F83C5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC1B0B03156AEFA5003F83C5 /* UIKit.framework */; };
+		CC1B0B06156AEFA5003F83C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC1B0B05156AEFA5003F83C5 /* Foundation.framework */; };
+		CC1B0B08156AEFA5003F83C5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC1B0B07156AEFA5003F83C5 /* CoreGraphics.framework */; };
+		CC1B0B0E156AEFA5003F83C5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CC1B0B0C156AEFA5003F83C5 /* InfoPlist.strings */; };
+		CC1B0B10156AEFA5003F83C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC1B0B0F156AEFA5003F83C5 /* main.m */; };
+		CC1B0B14156AEFA5003F83C5 /* HRTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC1B0B13156AEFA5003F83C5 /* HRTAppDelegate.m */; };
+		CC1B0B17156AEFA5003F83C5 /* HRTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC1B0B16156AEFA5003F83C5 /* HRTViewController.m */; };
+		CC1B0B1A156AEFA5003F83C5 /* HRTViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC1B0B18156AEFA5003F83C5 /* HRTViewController.xib */; };
+		CCB5677415772E8200F89D82 /* AZConnect.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB5677315772E8200F89D82 /* AZConnect.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CC1B0AFF156AEFA5003F83C5 /* AzumioConnnectExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AzumioConnnectExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC1B0B03156AEFA5003F83C5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CC1B0B05156AEFA5003F83C5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CC1B0B07156AEFA5003F83C5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CC1B0B0B156AEFA5003F83C5 /* AzumioConnnectExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AzumioConnnectExample-Info.plist"; sourceTree = "<group>"; };
+		CC1B0B0D156AEFA5003F83C5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CC1B0B0F156AEFA5003F83C5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CC1B0B11156AEFA5003F83C5 /* AzumioConnnectExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AzumioConnnectExample-Prefix.pch"; sourceTree = "<group>"; };
+		CC1B0B12156AEFA5003F83C5 /* HRTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HRTAppDelegate.h; sourceTree = "<group>"; };
+		CC1B0B13156AEFA5003F83C5 /* HRTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HRTAppDelegate.m; sourceTree = "<group>"; };
+		CC1B0B15156AEFA5003F83C5 /* HRTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HRTViewController.h; sourceTree = "<group>"; };
+		CC1B0B16156AEFA5003F83C5 /* HRTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HRTViewController.m; sourceTree = "<group>"; };
+		CC1B0B19156AEFA5003F83C5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/HRTViewController.xib; sourceTree = "<group>"; };
+		CCB5677215772E8200F89D82 /* AZConnect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AZConnect.h; path = AzumioConnect/AZConnect.h; sourceTree = SOURCE_ROOT; };
+		CCB5677315772E8200F89D82 /* AZConnect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AZConnect.m; path = AzumioConnect/AZConnect.m; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC1B0AFC156AEFA5003F83C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC1B0B04156AEFA5003F83C5 /* UIKit.framework in Frameworks */,
+				CC1B0B06156AEFA5003F83C5 /* Foundation.framework in Frameworks */,
+				CC1B0B08156AEFA5003F83C5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC1B0AF4156AEFA5003F83C5 = {
+			isa = PBXGroup;
+			children = (
+				CC1B0B09156AEFA5003F83C5 /* AzumioConnnectExample */,
+				CC1B0B02156AEFA5003F83C5 /* Frameworks */,
+				CC1B0B00156AEFA5003F83C5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC1B0B00156AEFA5003F83C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC1B0AFF156AEFA5003F83C5 /* AzumioConnnectExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC1B0B02156AEFA5003F83C5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC1B0B03156AEFA5003F83C5 /* UIKit.framework */,
+				CC1B0B05156AEFA5003F83C5 /* Foundation.framework */,
+				CC1B0B07156AEFA5003F83C5 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC1B0B09156AEFA5003F83C5 /* AzumioConnnectExample */ = {
+			isa = PBXGroup;
+			children = (
+				CC1B0B20156AF024003F83C5 /* AzumioConnect */,
+				CC1B0B12156AEFA5003F83C5 /* HRTAppDelegate.h */,
+				CC1B0B13156AEFA5003F83C5 /* HRTAppDelegate.m */,
+				CC1B0B15156AEFA5003F83C5 /* HRTViewController.h */,
+				CC1B0B16156AEFA5003F83C5 /* HRTViewController.m */,
+				CC1B0B18156AEFA5003F83C5 /* HRTViewController.xib */,
+				CC1B0B0A156AEFA5003F83C5 /* Supporting Files */,
+			);
+			path = AzumioConnnectExample;
+			sourceTree = "<group>";
+		};
+		CC1B0B0A156AEFA5003F83C5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC1B0B0B156AEFA5003F83C5 /* AzumioConnnectExample-Info.plist */,
+				CC1B0B0C156AEFA5003F83C5 /* InfoPlist.strings */,
+				CC1B0B0F156AEFA5003F83C5 /* main.m */,
+				CC1B0B11156AEFA5003F83C5 /* AzumioConnnectExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CC1B0B20156AF024003F83C5 /* AzumioConnect */ = {
+			isa = PBXGroup;
+			children = (
+				CCB5677215772E8200F89D82 /* AZConnect.h */,
+				CCB5677315772E8200F89D82 /* AZConnect.m */,
+			);
+			name = AzumioConnect;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC1B0AFE156AEFA5003F83C5 /* AzumioConnnectExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC1B0B1D156AEFA5003F83C5 /* Build configuration list for PBXNativeTarget "AzumioConnnectExample" */;
+			buildPhases = (
+				CC1B0AFB156AEFA5003F83C5 /* Sources */,
+				CC1B0AFC156AEFA5003F83C5 /* Frameworks */,
+				CC1B0AFD156AEFA5003F83C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AzumioConnnectExample;
+			productName = AzumioConnnectExample;
+			productReference = CC1B0AFF156AEFA5003F83C5 /* AzumioConnnectExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC1B0AF6156AEFA5003F83C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HRT;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = CC1B0AF9156AEFA5003F83C5 /* Build configuration list for PBXProject "AzumioConnnectExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CC1B0AF4156AEFA5003F83C5;
+			productRefGroup = CC1B0B00156AEFA5003F83C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC1B0AFE156AEFA5003F83C5 /* AzumioConnnectExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC1B0AFD156AEFA5003F83C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC1B0B0E156AEFA5003F83C5 /* InfoPlist.strings in Resources */,
+				CC1B0B1A156AEFA5003F83C5 /* HRTViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC1B0AFB156AEFA5003F83C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC1B0B10156AEFA5003F83C5 /* main.m in Sources */,
+				CC1B0B14156AEFA5003F83C5 /* HRTAppDelegate.m in Sources */,
+				CC1B0B17156AEFA5003F83C5 /* HRTViewController.m in Sources */,
+				CCB5677415772E8200F89D82 /* AZConnect.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CC1B0B0C156AEFA5003F83C5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC1B0B0D156AEFA5003F83C5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CC1B0B18156AEFA5003F83C5 /* HRTViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC1B0B19156AEFA5003F83C5 /* en */,
+			);
+			name = HRTViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC1B0B1B156AEFA5003F83C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CC1B0B1C156AEFA5003F83C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC1B0B1E156AEFA5003F83C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AzumioConnnectExample/AzumioConnnectExample-Prefix.pch";
+				INFOPLIST_FILE = "AzumioConnnectExample/AzumioConnnectExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CC1B0B1F156AEFA5003F83C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AzumioConnnectExample/AzumioConnnectExample-Prefix.pch";
+				INFOPLIST_FILE = "AzumioConnnectExample/AzumioConnnectExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC1B0AF9156AEFA5003F83C5 /* Build configuration list for PBXProject "AzumioConnnectExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC1B0B1B156AEFA5003F83C5 /* Debug */,
+				CC1B0B1C156AEFA5003F83C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC1B0B1D156AEFA5003F83C5 /* Build configuration list for PBXNativeTarget "AzumioConnnectExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC1B0B1E156AEFA5003F83C5 /* Debug */,
+				CC1B0B1F156AEFA5003F83C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC1B0AF6156AEFA5003F83C5 /* Project object */;
+}
