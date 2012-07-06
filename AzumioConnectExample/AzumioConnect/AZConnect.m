@@ -28,7 +28,7 @@ static AZConnect *_instance = 0;
 
     NSURL *urlPro = [NSURL URLWithString:[NSString stringWithFormat:@"instantheartrate.pro:?callback=%@:?heartrate=!HR!",schema]];
                      
-    NSURL *urlFree = [NSURL URLWithString:[NSString stringWithFormat:@"instantheartrate.free:?callback=%@:?heartrate=!HR!",schema]];
+    NSURL *urlFree = [NSURL URLWithString:[NSString stringWithFormat:@"si.modula.instantheartrate.free:?callback=%@:?heartrate=!HR!",schema]];
     
     if( [[UIApplication sharedApplication] canOpenURL:urlPro] ){
         [[UIApplication sharedApplication] openURL:urlPro];
